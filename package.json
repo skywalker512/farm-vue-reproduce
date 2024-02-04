@@ -16,5 +16,10 @@
     "build": "farm build",
     "preview": "farm preview",
     "clean": "farm clean"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "@farmfe/core@0.16.4": "patches/@farmfe__core@0.16.4.patch"
+    }
   }
 }

@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  '@farmfe/core@0.16.4':
+    hash: 5adoh6cgwmw7hi2cxvm5juvdxu
+    path: patches/@farmfe__core@0.16.4.patch
+
 dependencies:
   vue:
     specifier: ^3.4.15
@@ -15,7 +20,7 @@ devDependencies:
     version: 0.6.1
   '@farmfe/core':
     specifier: ^0.16.4
-    version: 0.16.4
+    version: 0.16.4(patch_hash=5adoh6cgwmw7hi2cxvm5juvdxu)
   '@vitejs/plugin-vue':
     specifier: ^5.0.3
     version: 5.0.3(vite@5.0.12)(vue@3.4.15)
@@ -348,7 +353,7 @@ packages:
     dev: true
     optional: true
 
-  /@farmfe/core@0.16.4:
+  /@farmfe/core@0.16.4(patch_hash=5adoh6cgwmw7hi2cxvm5juvdxu):
     resolution: {integrity: sha512-lXSKncvmhvsp+Kri99FV1hoD54bk4iQzUyp/ApKGQhdTitqpRbH8+oW5ozB4QfgkW6kuXfTdsuK5rnQx+DfGfA==}
     engines: {node: '>= 16'}
     dependencies:
@@ -394,6 +399,7 @@ packages:
       - supports-color
       - utf-8-validate
     dev: true
+    patched: true
 
   /@farmfe/runtime-plugin-hmr@3.4.0:
     resolution: {integrity: sha512-x2zif74XeU/1nZPtGIhkLx3+3gugPkzPRPRlnfDrsrANi0mCKiuQ81oNPHTcHJOhaQfchMyCgA+X5h/ZJHrIhg==}
