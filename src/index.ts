@@ -3,6 +3,6 @@ import './style.css';
 
 import App from './App.vue';
 
-import './a.ts';
+import './a';
 
 createApp(App).mount('#app');

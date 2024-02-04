@@ -14,4 +14,4 @@ import HelloWorld from './components/HelloWorld.vue';
   <HelloWorld msg="Farm + Vue" />
 </template>
 
-<style scoped src="./app.css"></style>
+<!-- <style scoped src="./app.css"></style> -->
