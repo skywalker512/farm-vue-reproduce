@@ -32,6 +32,8 @@ importers:
 
   apps/sfc-src: {}
 
+  apps/sfc-src-scss: {}
+
 packages:
 
   /@babel/helper-string-parser@7.23.4:
