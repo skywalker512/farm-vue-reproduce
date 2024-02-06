@@ -1,15 +1,15 @@
 {
-  "name": "farm-vue-sfc-reproduce",
+  "name": "farm-vue-reproduce",
   "version": "1.0.0",
   "dependencies": {
-    "vite": "^5.0.12",
     "vue": "^3.4.15"
   },
   "devDependencies": {
     "@farmfe/cli": "^0.6.1",
-    "@farmfe/core": "^0.16.4",
+    "@farmfe/core": "^0.16.5",
     "@vitejs/plugin-vue": "^5.0.3",
-    "core-js": "^3.35.1"
+    "core-js": "^3.35.1",
+    "vite": "^5.0.12"
   },
   "scripts": {
     "dev": "farm start",
@@ -17,10 +17,5 @@
     "build": "farm build",
     "preview": "farm preview",
     "clean": "farm clean"
-  },
-  "pnpm": {
-    "patchedDependencies": {
-      "@farmfe/core@0.16.4": "patches/@farmfe__core@0.16.4.patch"
-    }
   }
 }
