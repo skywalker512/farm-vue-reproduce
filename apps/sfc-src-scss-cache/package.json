@@ -1,5 +1,5 @@
 {
-  "name": "repeated-css-asset-namee",
+  "name": "sfc-src-scss-cache",
   "version": "1.0.0",
   "scripts": {
     "dev": "farm start",

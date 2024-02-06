@@ -1,5 +1,5 @@
 {
-  "name": "farm-vue-sfc-src-reproduce",
+  "name": "sfc-src",
   "version": "1.0.0",
   "scripts": {
     "dev": "farm start",

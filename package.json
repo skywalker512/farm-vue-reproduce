@@ -8,14 +8,9 @@
     "@farmfe/cli": "^0.6.1",
     "@farmfe/core": "^0.16.5",
     "@vitejs/plugin-vue": "^5.0.3",
+    "@farmfe/js-plugin-sass": "^2.4.0",
     "core-js": "^3.35.1",
     "vite": "^5.0.12"
   },
-  "scripts": {
-    "dev": "farm start",
-    "start": "farm start",
-    "build": "farm build",
-    "preview": "farm preview",
-    "clean": "farm clean"
-  }
+  "scripts": {}
 }
